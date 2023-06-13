@@ -6,7 +6,7 @@ import auth from "../controllers/auth.controller";
 import posts from "../controllers/posts.controller";
 
 
-import Post from "../models/post.model";
+import User from "../models/user.model";
 
 export default async function configure(app : Express.Application){
 
